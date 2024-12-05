@@ -87,6 +87,7 @@ docker build -t my-app:latest .
 
 # Step 2: Run a container
 docker run -d -p 8080:80 my-app:latest
+```
 
 ## **Disadvantages of Docker**
 
