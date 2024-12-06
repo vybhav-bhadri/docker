@@ -1,6 +1,6 @@
 # Docker - Containers  
 
-This repository documents a comprehensive discussion about Docker, its lifecycle, its comparison with Virtual Machines, and its role in modern DevOps workflows. It also highlights the current disadvantages of Docker and how tools like Buildat solve these issues.
+This repository documents a comprehensive discussion about Docker, its lifecycle, its comparison with Virtual Machines, and its role in modern DevOps workflows. It also highlights the current disadvantages of Docker and how tools like Buildat solve these issues. For detailed reading checkout  - https://github.com/iam-veeramalla/Docker-Zero-to-Hero
 
 ---
 
