@@ -1,4 +1,3 @@
-
 # Multi-Stage Docker Build
 
 Multi-stage Docker builds are a powerful way to optimize Docker images by separating the build process into multiple stages. This approach is particularly useful for creating small, production-ready images by excluding unnecessary files and dependencies from the final image.
@@ -69,6 +68,26 @@ Distroless images are minimal Docker images that include only the application an
 - `gcr.io/distroless/base`
 - `gcr.io/distroless/java`
 - `gcr.io/distroless/nodejs`
+
+### Is `alpine openjdk-11` a Distroless Image?
+No, the `alpine openjdk-11` image is not a distroless image. While it is minimal in size, it still includes an Alpine Linux distribution with utilities, package managers, and a shell. In contrast, `gcr.io/distroless/java` is a true distroless image that contains only the Java runtime and excludes unnecessary system tools or shells.
+
+### Differences Between `alpine openjdk-11` and `gcr.io/distroless/java`:
+
+1. **Size**:
+   - Both are lightweight, but `gcr.io/distroless/java` is generally smaller since it excludes additional system tools and libraries found in Alpine.
+
+2. **Security**:
+   - `gcr.io/distroless/java` has a smaller attack surface because it lacks a package manager, shell, and other utilities that can introduce vulnerabilities.
+   - `alpine openjdk-11` includes these tools, which may increase the attack surface.
+
+3. **Flexibility**:
+   - `alpine openjdk-11` allows runtime flexibility, such as installing additional packages using `apk`.
+   - `gcr.io/distroless/java` is immutable and discourages runtime modifications.
+
+4. **Use Case**:
+   - Use `alpine openjdk-11` when you need to perform debugging or runtime customizations.
+   - Use `gcr.io/distroless/java` for production environments where security and minimalism are priorities.
 
 ## Advantages of Distroless Images
 
