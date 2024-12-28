@@ -1,4 +1,4 @@
-# Docker (Containerisation technology implmentation) 
+# Docker (Containerisation technology implmentation)
 
 This repository provides an in-depth exploration of Docker, its lifecycle, comparison with Virtual Machines (VMs), and its role in modern DevOps workflows. It also examines Docker's current limitations and introduces **Buildat** as a solution to address these challenges.
 ---
