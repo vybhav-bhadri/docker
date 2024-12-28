@@ -1,7 +1,6 @@
 # Docker (Containerisation technology implmentation) 
 
-This repository provides an in-depth exploration of Docker, its lifecycle, comparison with Virtual Machines (VMs), and its role in modern DevOps workflows. It also examines Docker's current limitations and introduces **Buildat** as a solution to address these challenges. For further reading, visit the complete guide at [Docker-Zero-to-Hero](https://github.com/iam-veeramalla/Docker-Zero-to-Hero).
-
+This repository provides an in-depth exploration of Docker, its lifecycle, comparison with Virtual Machines (VMs), and its role in modern DevOps workflows. It also examines Docker's current limitations and introduces **Buildat** as a solution to address these challenges.
 ---
 
 ## **Table of Contents**  
