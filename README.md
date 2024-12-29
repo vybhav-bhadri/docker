@@ -7,6 +7,6 @@ This repository provides an brief exploration of Docker, its lifecycle, comparis
 1. [Docker Intro](https://github.com/vybhav-bhadri/docker/blob/master/Docker.md)  
 2. [Docker Architecture](https://github.com/vybhav-bhadri/docker/blob/master/DockerArchitecture.md)  
 3. [Multi Stage Docker Build](https://github.com/vybhav-bhadri/docker/blob/master/MultiStageDocker.md)  
-4. [Docker Volumes & BindMounts](https://github.com/vybhav-bhadri/docker/blob/master/Docker-Volumnes%26BindMounts.md)  
+4. [Docker Volumes & BindMounts](https://github.com/vybhav-bhadri/docker/blob/master/DockerVolumes%26BindMounts.md)  
 5. [Docker Networking](#)  
 ---
